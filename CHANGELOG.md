@@ -1,5 +1,12 @@
 Change Log
 ----------
+## Version 0.5.0
+- \#13 Support Global / Project cluster configurations
+- Add request history
+- \#22 Support SSL via IDE build-in "Server Certificates"
+- Add shortcuts for Next / Previous page
+
+
 ## Version 0.4.4
 - Fix dynamic plugin reloading
 - Small UI fixes
