@@ -1,5 +1,10 @@
 Change Log
 ----------
+## Version 0.5.1
+- Add search by request history
+- \#23 Fix: Unable to parse unicode value: cm_c
+
+
 ## Version 0.5.0
 - \#13 Support Global / Project cluster configurations
 - Add request history
