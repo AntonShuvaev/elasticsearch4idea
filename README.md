@@ -4,6 +4,7 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/org.elasticsearch4idea.svg)](https://plugins.jetbrains.com/plugin/org.elasticsearch4idea)
 
 https://plugins.jetbrains.com/plugin/14512-elasticsearch
+https://intellij-elasticsearch.com/
 
 ## Documentation
 
