@@ -5,7 +5,7 @@
 
 https://plugins.jetbrains.com/plugin/14512-elasticsearch
 
-https://intellij-elasticsearch.com/
+https://www.intellij-elasticsearch.com/
 
 ## Documentation
 
