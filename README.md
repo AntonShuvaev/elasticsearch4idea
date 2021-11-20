@@ -8,7 +8,7 @@ It is designed to query and manage Elasticsearch cluster.
 You can connect to a local cluster, to a server, or in the cloud.
 Supports all versions of Elasticsearch and OpenSearch.
 
-For the documentation please visit [IntelliJ Elasticsearch Documentation](https://www.intellij-elasticsearch.com/docs/getting-started/overview/).
+For the documentation please visit [Documentation](https://www.intellij-elasticsearch.com/docs/getting-started/overview/).
 
 To get the IntelliJ Elasticsearch plugin visit [Jetbrains Marketplace](https://plugins.jetbrains.com/plugin/14512-elasticsearch).
 
