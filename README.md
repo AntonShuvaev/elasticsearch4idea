@@ -15,7 +15,8 @@ For the documentation please visit [Documentation](https://www.intellij-elastics
 To get the IntelliJ Elasticsearch plugin visit [Jetbrains Marketplace](https://plugins.jetbrains.com/plugin/14512-elasticsearch).
 
 
-To get a quick tour of basic IntelliJ Elasticsearch features, see the [introduction video](https://youtu.be/lSsnPGMG830) (3 minutes).
+To get a quick tour of basic IntelliJ Elasticsearch features, see the [introduction video](https://youtu.be/lSsnPGMG830) (3 minutes) 
+but it is a bit outdated.
 
 ![IntelliJ Elasticsearch plugin](images/IntelliJ-Elasticsearch-plugin.webp)
 
