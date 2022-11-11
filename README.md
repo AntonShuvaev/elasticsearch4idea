@@ -25,8 +25,12 @@ To get a quick tour of basic IntelliJ Elasticsearch features, see the [introduct
 ![multiple connections to ES](images/multiple_connections_to_elasticsearch.webp)
 
 
-#### Browse and manage your data with a Table or JSON Views. Use Kibana Query Language (KQL) to filter your data.
+#### Browse your data with a Table or JSON Views. Use Pagination, Sorting and Filtering with Kibana Query Language (KQL).
 ![browse and manage indices](images/browse_and_manage_data.webp)
+
+
+#### Create, Update, Delete documents right in the table or in the JSON editor dialog.
+![Create, Update, Delete documents](images/crud.webp)
 
 
 #### QueryDSL and Rest API autocomplete with Elasticsearch Documentation
