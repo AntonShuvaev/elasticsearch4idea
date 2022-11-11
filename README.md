@@ -45,4 +45,8 @@ To get a quick tour of basic IntelliJ Elasticsearch features, see the [introduct
 ![Import data](images/import_data.webp)
 
 
-#### Favorite requests, Request History and other features
+#### Other features
+- Save `.es` files with requests in your project and share them with your team 
+- Save your favorite queries and access them from the explorer tool window
+- History of all executed requests
+- and more...
