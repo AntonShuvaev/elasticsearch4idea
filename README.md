@@ -17,18 +17,30 @@ To get the IntelliJ Elasticsearch plugin visit [Jetbrains Marketplace](https://p
 
 To get a quick tour of basic IntelliJ Elasticsearch features, see the [introduction video](https://youtu.be/lSsnPGMG830) (3 minutes).
 
-![IntelliJ Elasticsearch](images/IntelliJ-Elasticsearch-plugin.webp)
+![IntelliJ Elasticsearch plugin](images/IntelliJ-Elasticsearch-plugin.webp)
 
 ### Features
 
 ##### Create many connections to Elasticsearch or OpenSearch clusters with Authorization, SSL, SSH, AWS Signature
 
-![IntelliJ Elasticsearch](images/multiple_connections_to_elasticsearch.webp)
+![multiple connections to ES](images/multiple_connections_to_elasticsearch.webp)
 
 ##### Browse and manage your data with a Table or JSON Views. Use Kibana Query Language (KQL) to filter your data.
 
-![IntelliJ Elasticsearch](images/browsed_and_manage_data.webp)
+![browse and manage indices](images/browse_and_manage_data.webp)
 
 ##### QueryDSL and Rest API autocomplete with Elasticsearch Documentation
 
-![IntelliJ Elasticsearch](images/QueryDSL_autocomplete.webp)
+![queryDSL autocomplete](images/QueryDSL_autocomplete.webp)
+
+##### Export data to CSV, JSON, Bulk API or Dump file
+
+![Export data](images/export_data.webp)
+
+##### Import data from CSV, JSON, Dump file or Copy indexes
+
+![Import data](images/import_data.webp)
+
+##### Favorite requests
+##### Request History
+##### And other features
