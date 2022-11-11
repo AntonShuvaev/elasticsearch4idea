@@ -45,6 +45,4 @@ To get a quick tour of basic IntelliJ Elasticsearch features, see the [introduct
 ![Import data](images/import_data.webp)
 
 
-#### Favorite requests
-#### Request History
-#### And other features
+#### Favorite requests, Request History and other features
