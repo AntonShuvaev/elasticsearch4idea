@@ -1,5 +1,151 @@
 Change Log
 ----------
+## 2022.3.0
+### Fixed
+- TraceableDisposable$DisposalException might occur in some cases
+### Added
+- [\#90](https://github.com/AntonShuvaev/elasticsearch4idea/issues/90) Support multiple jump hosts in SSH settings. Support host alias and ProxyJump from ssh config file.
+- [\#88](https://github.com/AntonShuvaev/elasticsearch4idea/issues/88) Allow configuring plugin keymaps
+- Added support for 2022.3
+
+## 2022.2.3
+### Fixed
+-  [\#86](https://github.com/AntonShuvaev/elasticsearch4idea/issues/86) Nested values are not updated correctly by table editor
+### Added
+-  [\#84](https://github.com/AntonShuvaev/elasticsearch4idea/issues/84) Paste request from history without closing the dialog
+### Changed
+-  [\#84](https://github.com/AntonShuvaev/elasticsearch4idea/issues/84) Search in history dialog shows only matching requests
+
+
+## 2022.2.2
+### Fixed
+-  [\#85](https://github.com/AntonShuvaev/elasticsearch4idea/issues/85) "IllegalArgumentException: Illegal base64 character" might occur in some cases
+
+## 2022.2.1
+### Fixed
+- [\#82](https://github.com/AntonShuvaev/elasticsearch4idea/issues/82) "IllegalArgumentException: Illegal base64 character" might occur on Windows and cause the loss of state
+- NullPointerException might occur in some cases
+- UninitializedPropertyAccessException might occur in some cases
+- IndexOutOfBoundsException: might occur in some cases
+
+
+## 2022.2.0
+### Added
+- Show consoles in the explorer tool window
+- Compatibility with IntelliJ Platform 2022.2
+### Changed
+- Favorites moved to the explorer tool window
+### Fixed
+- Field filter is reset each time the query is run
+
+
+## 2022.1.10
+### Added
+- [\#81](https://github.com/AntonShuvaev/elasticsearch4idea/issues/81) ApiKey authorization
+
+## 2022.1.9
+### Fixed
+- [\#79](https://github.com/AntonShuvaev/elasticsearch4idea/issues/79) Lost Configuration 
+- Incorrect column names for fields with dots in CSV export
+### Added
+- Import from CSV, JSON, Dump files and copying indices
+- Support gzip compression for export
+- Explorer tree nodes filter
+- Added task and ingest pipeline explorer tree nodes 
+- Ability to send error reports to the developer
+
+## 2022.1.8
+### Fixed
+- Delete document with routing not working
+- Bulk update with routing not working
+### Added
+- Support bulk update documents in dialog window
+- Ability to update or delete favorite request from editor
+
+## 2022.1.7
+### Fixed
+- [\#76](https://github.com/AntonShuvaev/elasticsearch4idea/issues/76) Cannot init component state error might occur
+- Fixed memory leak
+### Changed
+- Move favorite requests back to Bookmarks tool window
+### Added
+- Multilevel table header
+- Create, Update, Delete documents in table
+- [\#77](https://github.com/AntonShuvaev/elasticsearch4idea/issues/77) Filter indexes, aliases, templates by pattern
+- Hiding empty columns in table
+- "Filter fields" popup menu to hide fields in result
+- Cmd+Enter shortcut for executing request
+- AWS Default credential providers chain
+- AWS SSO Support (Requires sso login with AWS CLI)
+
+## 2022.1.6
+### Fixed
+- \#73, \#74 Added checkbox to trust insecure certificate
+- \#72 Favorite requests moved to Scratches and Consoles folder
+### Added
+- \#69 Autocompletion for Kibana REST API
+
+## 2022.1.5
+### Fixed
+- \#70 The plugin uninstalls automatically
+
+## 2022.1.4
+### Added
+- Connection to Kibana or AWS OpenSearch Dashboard using them as proxy to ES
+- \#66 Support triple quote multi-line strings
+- Authorization with Bearer token
+- \#65 Authorization with OAuth 2.0 (Client credentials and password grant types supported)
+### Changed
+- Username and password moved to Basic Auth at Authorization tab
+### Fixed
+- \#68 Search results are not displayed for ES 8
+- Fields in Index Structure view are not updated immediately after show/hide action
+
+## 2022.1.3
+### Added
+- Connection to Kibana or AWS OpenSearch Dashboard using them as proxy to ES
+- \#66 Support triple quote multi-line strings 
+- Authorization with Bearer token
+- \#65 Authorization with OAuth 2.0 (Client credentials and password grant types supported) 
+### Changed
+- Username and password moved to Basic Auth at Authorization tab
+### Fixed
+- Fields in Index Structure view are not updated immediately after show/hide action
+
+## 2022.1.2
+### Added
+- `Dump` extractor to export index with mappings, settings and aliases
+- Autocomplete for mapping
+### Changed
+- Move tree nodes information panel to separate tool window
+### Fixed
+- \#64 ClassCastException if parent/child relations have list of children
+- Fix KQL nested filter
+
+## 2022.1.0
+### Added
+- \#45 Autocompletion for Aggregations
+- Editors in dialogs have the first line with request to be executed 
+### Changed
+- Updated Elasticsearch documentation
+### Fixed
+- \#59 Size: 0 is ignored after switching view
+- \#61 Confirm delete window while removing symbols in query input
+- \#63 Login to AWS OpenSearch is not working for assume role profiles
+- The error "PluginException: Cannot init component state" might occur in some cases
+- The error "java.lang.NoClassDefFoundError: NotebookVisualizationUiUtilKt" might occur in some cases
+
+## Version 1.7.1
+### Added
+- \#54 Support reading AWS credentials from file
+- \#56 Added Delimiter-separated values (DSV) extractor
+### Fixed
+- com.intellij.diagnostic.PluginException when opening plugin settings 
+- \#56 CSV extractor doesn't escape comma in arrays
+- New line appended when executing request
+- Elasticsearch files (.es) opened as plain text files
+- \#55, \#57 `_geo_distance` or `_script` sorting removed from request
+
 ## Version 1.7.0
 ### Added
 - \#48 Add templates node to cluster tree
@@ -13,7 +159,7 @@ Change Log
 
 ## Version 1.6.0
 ### Added
-- Support physical and scratch files, you can keep your requests in project
+- Support physical and scratch files, you can keep your requests in project 
 - Support multiple requests in one console
 - Added Elasticsearch Consoles similar to Database Consoles
 - Added Update Mapping action in index context menu
@@ -29,9 +175,9 @@ Change Log
 ### Added
 - \#40 Global settings can be shared through settings repository
 - \#39 Copy absolute URL when whole URL is selected
-- On the editor panel added buttons for changing view mode:
-  Only editor / Only response view / Vertical editor and response / Horizontal editor and response
-- On the search actions panel added button to enable/disable updating request in editor when executing actions like pagination, KQL filter, sorting, hiding fields
+- On the editor panel added buttons for changing view mode: 
+   Only editor / Only response view / Vertical editor and response / Horizontal editor and response
+- On the search actions panel added button to enable/disable updating request in editor when executing actions like pagination, KQL filter, sorting, hiding fields 
 - KQL filter is applied as additional filter to query instead of replacing it
 - Added connection timeout setting
 ### Fixed
@@ -43,7 +189,7 @@ Change Log
 ## Version 1.5.0
 - Support connection to multiple nodes
 - \#37 Support export to CSV, JSON, Bulk API
-- Ability to select rows and copy to clipboard row converted to CSV, JSON or Bulk API
+- Ability to select rows and copy to clipboard row converted to CSV, JSON or Bulk API 
 - Support deleting multiple documents
 - Fix copying table cell value
 
