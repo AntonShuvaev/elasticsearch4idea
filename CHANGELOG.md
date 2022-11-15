@@ -1,5 +1,12 @@
 Change Log
 ----------
+## 2022.3.1
+### Fixed
+- Regression in 2022.3.0 where some plugin keybindings block default IDE keybindings
+### Added
+- [\#91](https://github.com/AntonShuvaev/elasticsearch4idea/issues/91) Added ability to choose custom color for connection
+- Added help actions: Open Documentation, Open Changelog, Create GutHub Issue, Copy Email 
+
 ## 2022.3.0
 ### Fixed
 - TraceableDisposable$DisposalException might occur in some cases
