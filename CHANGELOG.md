@@ -1,5 +1,29 @@
 Change Log
 ----------
+## 2022.3.4
+### Added
+- Ability to specify AWS config file along with credentials file
+### Fixed
+- [\#93](https://github.com/AntonShuvaev/elasticsearch4idea/issues/93) AWS credentials path is not saved between restarts causing NullPointerException
+- [\#94](https://github.com/AntonShuvaev/elasticsearch4idea/issues/94) Error on choosing suggestion in Query Console
+
+## 2022.3.3
+### Added
+- Support "routing" field in import
+### Fixed
+- "java.lang.VerifyError: Bad type on operand stack" may occur in some cases
+- "java.lang.IndexOutOfBoundsException" may occur in some cases
+- "JsonParseException Unrecognized token" may occur in some cases
+
+## 2022.3.2
+### Fixed
+- "IllegalArgumentException: Argument for @NotNull parameter 'c' of com/intellij/ui/ColorUtil.toHex must not be null" might occur in some cases
+- "TraceableDisposable$DisposalException: Editor is already disposed" might occur in some cases
+### Added
+- [\#92](https://github.com/AntonShuvaev/elasticsearch4idea/issues/92) Add "routing" field to the Bulk API export
+### Changed
+- Changed shortcut for "Submit changes" to "Ctrl+Shift+Enter" (was "Ctrl+Enter") to avoid conflicts with "Execute query"
+
 ## 2022.3.1
 ### Fixed
 - Regression in 2022.3.0 where some plugin keybindings block default IDE keybindings
