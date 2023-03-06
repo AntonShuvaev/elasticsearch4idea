@@ -1,5 +1,16 @@
 Change Log
 ----------
+## 2023.1.0
+### Added
+- Recent ES files are stored and can be opened from the "Recent Files"
+- Added support for 2023.1
+### Changed
+- ES toolwindow icon changed to the monochrome version
+### Fixed
+- [\#97](https://github.com/AntonShuvaev/elasticsearch4idea/issues/97) Moving tabs resets query loosing changes
+- ES files are not correctly shown in "Recent Files" list
+
+
 ## 2022.3.4
 ### Added
 - Ability to specify AWS config file along with credentials file
