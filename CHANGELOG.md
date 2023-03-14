@@ -1,5 +1,19 @@
 Change Log
 ----------
+## 2023.1.2 (2023-03-13)
+### Fixed
+- [\#99](https://github.com/AntonShuvaev/elasticsearch4idea/issues/99) "indices" disappeared on some clusters
+
+
+## 2023.1.1
+### Added
+- [\#98](https://github.com/AntonShuvaev/elasticsearch4idea/issues/98) Support whitespaces in url 
+
+### Fixed
+- [\#99](https://github.com/AntonShuvaev/elasticsearch4idea/issues/99) "indices" disappeared on some clusters
+- java.lang.NullPointerException might occur in some cases
+
+
 ## 2023.1.0
 ### Added
 - Recent ES files are stored and can be opened from the "Recent Files"
