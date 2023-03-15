@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.1.3 (2023-03-14)
+### Fixed
+- [\#98](https://github.com/AntonShuvaev/elasticsearch4idea/issues/98) Do not urlencode url in the request
+
 ## 2023.1.2 (2023-03-13)
 ### Fixed
 - [\#99](https://github.com/AntonShuvaev/elasticsearch4idea/issues/99) "indices" disappeared on some clusters
