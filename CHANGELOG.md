@@ -1,5 +1,12 @@
 Change Log
 ----------
+## 2023.1.4 (2023-03-29)
+### Fixed
+- [\#101](https://github.com/AntonShuvaev/elasticsearch4idea/issues/101) Can't connect to Kibana
+- ExceptionInInitializerError: NullPointerException might occur in some cases
+### Added
+- Ability to create Elasticsearch file from project view context menu
+
 ## 2023.1.3 (2023-03-14)
 ### Fixed
 - [\#98](https://github.com/AntonShuvaev/elasticsearch4idea/issues/98) Do not urlencode url in the request
