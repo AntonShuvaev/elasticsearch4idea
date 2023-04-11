@@ -1,5 +1,15 @@
 Change Log
 ----------
+## 2023.1.5 (2023-04-11)
+### Added
+- Add ability to specify type when importing to ES version before 7
+- Action to change default page size
+### Changed
+- Do not automatically execute queries from opened files after IDE restart
+### Fixed
+- Message that plugin is not registered might appear after IDE restart
+- Credentials might be lost after IDE restart on Windows
+
 ## 2023.1.4 (2023-03-29)
 ### Fixed
 - [\#101](https://github.com/AntonShuvaev/elasticsearch4idea/issues/101) Can't connect to Kibana
