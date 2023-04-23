@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.1.6 (2023-04-23)
+### Added
+- Support for Amazon OpenSearch Serverless
+
 ## 2023.1.5 (2023-04-11)
 ### Added
 - Add ability to specify type when importing to ES version before 7
