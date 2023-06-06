@@ -1,5 +1,23 @@
 Change Log
 ----------
+## 2023.2.0 (2023-06-06)
+### Added
+- The ability to save KQL queries
+- Display of saved KQL queries in the query history popup
+- Context help with KQL syntax
+- Automatic update of the response view to show the cached response when switching between requests
+- [\#104](https://github.com/AntonShuvaev/elasticsearch4idea/issues/104) The ability to zoom in on the result table
+- The ability to move multi-level columns in the result table
+- Display of saved requests in the request history popup
+- Restoring of KQL queries from requests
+- A link to the User Experience Survey in the help action group
+### Changed
+- Indices now open in the editor displaying only the result view, without the request view
+- Favorite requests and consoles are now displayed within the cluster node
+### Fixed
+- The query builder no longer hides when a query is invalid
+- Various minor fixes
+
 ## 2023.1.6 (2023-04-23)
 ### Added
 - Support for Amazon OpenSearch Serverless
