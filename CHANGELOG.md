@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.2.2 (2023-06-12)
+### Fixed
+- [\#107](https://github.com/AntonShuvaev/elasticsearch4idea/issues/107) Issue when index or alias contains "_search" in name
+
 ## 2023.2.1 (2023-06-12)
 ### Added
 - Updated SSH library to support new key exchange algorithms and ED25519 keys
