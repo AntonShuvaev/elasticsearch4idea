@@ -3,6 +3,8 @@ Change Log
 ## 2023.2.3 (2023-06-15)
 ### Added
 - [\#108](https://github.com/AntonShuvaev/elasticsearch4idea/issues/108) Restored the ability to open an index in the query console, in addition to the ability to open an index in the data browser.
+### Fixed
+- RuntimeExceptionWithAttachments might occur
 
 ## 2023.2.2 (2023-06-12)
 ### Fixed
