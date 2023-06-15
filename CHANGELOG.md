@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.2.3 (2023-06-15)
+### Added
+- [\#108](https://github.com/AntonShuvaev/elasticsearch4idea/issues/108) Restored the ability to open an index in the query console, in addition to the ability to open an index in the data browser.
+
 ## 2023.2.2 (2023-06-12)
 ### Fixed
 - [\#107](https://github.com/AntonShuvaev/elasticsearch4idea/issues/107) Issue when index or alias contains "_search" in name
