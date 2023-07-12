@@ -1,5 +1,18 @@
 Change Log
 ----------
+## 2023.2.4 (2023-07-12)
+### Added
+- [\#115](https://github.com/AntonShuvaev/elasticsearch4idea/issues/115) Support for keyboard-interactive SSH authentication
+- [\#114](https://github.com/AntonShuvaev/elasticsearch4idea/issues/114) Ability to change size of table cell editing view
+- [\#116](https://github.com/AntonShuvaev/elasticsearch4idea/issues/116) Store request history and connection details separately
+### Changed
+- [\#112](https://github.com/AntonShuvaev/elasticsearch4idea/issues/112) "Open in query console" action is now open request in persistent query console
+### Fixed
+- [\#117](https://github.com/AntonShuvaev/elasticsearch4idea/issues/117) "Copy index" modal does not scroll properly
+- Tree nodes collapse when refreshing the tree
+- "IllegalArgumentException: Wrong offsets" might occur in some cases
+- "AssertionError: Wrong line separators" might occur in export preview in some cases
+
 ## 2023.2.3 (2023-06-15)
 ### Added
 - [\#108](https://github.com/AntonShuvaev/elasticsearch4idea/issues/108) Restored the ability to open an index in the query console, in addition to the ability to open an index in the data browser.
