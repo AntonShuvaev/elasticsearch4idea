@@ -1,5 +1,13 @@
 Change Log
 ----------
+## 2023.2.5 (2023-07-24)
+### Added
+- [\#118](https://github.com/AntonShuvaev/elasticsearch4idea/issues/118) Added support for `Match Host Exec` in SSH config
+### Fixed
+- [\#119](https://github.com/AntonShuvaev/elasticsearch4idea/issues/119) Fixed issues with whitespace in URL
+- [\#120](https://github.com/AntonShuvaev/elasticsearch4idea/issues/120) Enable 'ssh-rsa' key support in JSch
+- IllegalStateException might occur in some cases
+
 ## 2023.2.4 (2023-07-12)
 ### Added
 - [\#115](https://github.com/AntonShuvaev/elasticsearch4idea/issues/115) Support for keyboard-interactive SSH authentication
