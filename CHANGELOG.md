@@ -1,5 +1,13 @@
 Change Log
 ----------
+## 2023.2.6 (2023-08-14)
+### Changed
+- [\#124](https://github.com/AntonShuvaev/elasticsearch4idea/issues/124) Change autocomplete template for bool operators from `{}` to `[{}]`
+### Fixed
+- [\#125](https://github.com/AntonShuvaev/elasticsearch4idea/issues/125) Illegal character error when path contains `^`
+- [\#121](https://github.com/AntonShuvaev/elasticsearch4idea/issues/121) Table cell popup editor turns green when searching
+- Other minor fixes
+
 ## 2023.2.5 (2023-07-24)
 ### Added
 - [\#118](https://github.com/AntonShuvaev/elasticsearch4idea/issues/118) Added support for `Match Host Exec` in SSH config
