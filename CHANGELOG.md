@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.2.7 (2023-08-17)
+### Fixed
+- IllegalStateException: Do not change documents during undo as it will break undo sequence.
+
 ## 2023.2.6 (2023-08-14)
 ### Changed
 - [\#124](https://github.com/AntonShuvaev/elasticsearch4idea/issues/124) Change autocomplete template for bool operators from `{}` to `[{}]`
