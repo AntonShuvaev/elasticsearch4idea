@@ -1,5 +1,19 @@
 Change Log
 ----------
+## 2023.2.8 (2023-09-22)
+### Added
+- [\#127](https://github.com/AntonShuvaev/elasticsearch4idea/issues/127) Autocompletion for queries in _count, _update_by_query, _delete_by_query, and other APIs
+- [\#129](https://github.com/AntonShuvaev/elasticsearch4idea/issues/129) Ability to open Data Browser without executing a query (Select Cluster in tree -> Open in Data Browser)
+- JSON tree visualization (for viewing aggregation responses)
+- Double-clicking on the row number or using ctrl + double-clicking on the row now opens the Edit Document dialog
+- Added an option to display attributes as either flattened or unflattened
+
+### Fixed
+- [\#128](https://github.com/AntonShuvaev/elasticsearch4idea/issues/128) Improved memory consumption 
+- Preserved column order and width when refreshing a query
+- If you use the GitHub Copilot plugin, you can now use it for Elasticsearch files
+
+
 ## 2023.2.7 (2023-08-17)
 ### Fixed
 - IllegalStateException: Do not change documents during undo as it will break undo sequence.
