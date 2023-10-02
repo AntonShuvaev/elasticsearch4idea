@@ -1,5 +1,14 @@
 Change Log
 ----------
+## 2023.2.9 (2023-10-02)
+### Added
+- Ability to copy table cell values to other cells
+
+### Fixed
+- Exception "IllegalStateException: JCEF is not supported in this env or failed to initialize" might occur in some cases
+- [\#128](https://github.com/AntonShuvaev/elasticsearch4idea/issues/128) index mappings are fetched multiple
+- Error "Slow operations are prohibited on EDT" occurs in EAP 2023.3
+
 ## 2023.2.8 (2023-09-22)
 ### Added
 - [\#127](https://github.com/AntonShuvaev/elasticsearch4idea/issues/127) Autocompletion for queries in _count, _update_by_query, _delete_by_query, and other APIs
