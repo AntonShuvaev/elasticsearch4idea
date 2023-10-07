@@ -1,5 +1,13 @@
 Change Log
 ----------
+## 2023.2.10 (2023-10-09)
+- Option to show only queries for the current index in the query history popup
+### Fixed
+- UnsupportedFlavorException when copying text into table cell
+- "Slow operations are prohibited on EDT" error in 2023.3 EAP
+- Error when JCef is not supported
+
+
 ## 2023.2.9 (2023-10-02)
 ### Added
 - Ability to copy table cell values to other cells
