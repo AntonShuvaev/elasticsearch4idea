@@ -1,6 +1,11 @@
 Change Log
 ----------
+## 2023.2.11 (2023-10-10)
+### Added
+- [\#130](https://github.com/AntonShuvaev/elasticsearch4idea/issues/130) Added support for headers in connection settings 
+
 ## 2023.2.10 (2023-10-09)
+### Added
 - Option to show only queries for the current index in the query history popup
 ### Fixed
 - UnsupportedFlavorException when copying text into table cell
