@@ -1,5 +1,12 @@
 Change Log
 ----------
+## 2023.2.12 (2023-11-03)
+### Changed
+- New Alias action replaced with Manage Aliases action
+### Fixed
+- [\#131](https://github.com/AntonShuvaev/elasticsearch4idea/issues/131) Total size is incorrect in Elasticsearch Inspector
+- other minor fixes
+
 ## 2023.2.11 (2023-10-10)
 ### Added
 - [\#130](https://github.com/AntonShuvaev/elasticsearch4idea/issues/130) Added support for headers in connection settings 
