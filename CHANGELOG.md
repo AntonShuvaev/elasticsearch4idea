@@ -1,6 +1,6 @@
 Change Log
 ----------
-## 2023.3.0 (2023-12-05)
+## 2023.3.1 (2023-12-05)
 ### Added
 - Show request logs and results in the Services tool window
 - Tables list search and filtering
