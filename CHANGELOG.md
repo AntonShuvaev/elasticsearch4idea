@@ -1,5 +1,15 @@
 Change Log
 ----------
+## 2023.3.0 (2023-12-05)
+### Added
+- Show request logs and results in the Services tool window
+- Tables list search and filtering
+- Automatically add closing quota in Query Builder
+### Changed
+- Improved search in the table view (Cmd + F)
+### Fixed
+- Other minor issues
+
 ## 2023.2.12 (2023-11-03)
 ### Changed
 - New Alias action replaced with Manage Aliases action
