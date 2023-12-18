@@ -1,5 +1,11 @@
 Change Log
 ----------
+## 2023.3.2 (2023-12-18)
+### Added
+- [\#135](https://github.com/AntonShuvaev/elasticsearch4idea/issues/135) Ability to delete field from document in table view
+### Fixed
+- ArrayIndexOutOfBoundsException might occur in some cases
+
 ## 2023.3.1 (2023-12-05)
 ### Added
 - Show request logs and results in the Services tool window
