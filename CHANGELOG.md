@@ -1,5 +1,11 @@
 Change Log
 ----------
+## 2023.3.3 (2023-01-11)
+### Added
+- Support for HTTP proxy from IDE settings
+### Fixed
+- Connection to Elasticsearch over HTTPS not working properly when using SSH
+
 ## 2023.3.2 (2023-12-18)
 ### Added
 - [\#135](https://github.com/AntonShuvaev/elasticsearch4idea/issues/135) Ability to delete field from document in table view
