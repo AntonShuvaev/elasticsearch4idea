@@ -5,6 +5,8 @@ Change Log
 - Support for HTTP proxy from IDE settings
 ### Fixed
 - Connection to Elasticsearch over HTTPS not working properly when using SSH
+- [\#136](https://github.com/AntonShuvaev/elasticsearch4idea/issues/136) Connection constantly lost
+- Editor tab title is not properly displayed
 
 ## 2023.3.2 (2023-12-18)
 ### Added
