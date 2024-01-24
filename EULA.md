@@ -1,4 +1,4 @@
-## IntelliJ Elasticsearch EULA
+## Elasticsearch Plugin EULA
 
 "Developer" means Anton Shuvaev.
 
