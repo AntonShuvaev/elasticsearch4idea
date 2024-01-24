@@ -37,4 +37,4 @@ The data sent includes the following:
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
 
 Contact Information:
-Email: support@intellij-elasticsearch.com
+Email: support@elasticsearch-idea.com
