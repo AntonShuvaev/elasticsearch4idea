@@ -1,6 +1,13 @@
 Change Log
 ----------
-## 2023.3.3 (2023-01-11)
+
+## 2023.3.4 (2024-01-25)
+### Added
+- Support 2024.1 EAP
+### Fixed
+- [\#138](https://github.com/AntonShuvaev/elasticsearch4idea/issues/138) IDE freezing when searching large indices
+
+## 2023.3.3 (2024-01-11)
 ### Added
 - Support for HTTP proxy from IDE settings
 ### Fixed
