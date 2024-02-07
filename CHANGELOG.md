@@ -1,5 +1,8 @@
 Change Log
 ----------
+## 2023.3.5 (2024-02-07)
+### Fixed
+- [\#141](https://github.com/AntonShuvaev/elasticsearch4idea/issues/141) Regression: field filtering no longer works in table view
 
 ## 2023.3.4 (2024-01-25)
 ### Added
