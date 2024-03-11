@@ -1,5 +1,14 @@
 Change Log
 ----------
+## 2024.1.0 (2024-03-11)
+### Added
+- [\#144](https://github.com/AntonShuvaev/elasticsearch4idea/issues/144) Add quick access to data streams
+- [\#143](https://github.com/AntonShuvaev/elasticsearch4idea/issues/143) Add support for inline comments
+- Added separate options for connection timeout and request timeout
+### Fixed
+- Keep hidden fields in saved requests and queries
+- Other minor fixes
+
 ## 2023.3.5 (2024-02-07)
 ### Fixed
 - [\#141](https://github.com/AntonShuvaev/elasticsearch4idea/issues/141) Regression: field filtering no longer works in table view
