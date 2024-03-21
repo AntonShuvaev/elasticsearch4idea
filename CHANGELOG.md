@@ -1,5 +1,12 @@
 Change Log
 ----------
+## 2024.1.1 (2024-03-21)
+### Added
+- [\#147](https://github.com/AntonShuvaev/elasticsearch4idea/issues/147) Show search results view when querying using search templates
+- [\#146](https://github.com/AntonShuvaev/elasticsearch4idea/issues/146) Auto-Completion Feature for inner_hits in has_child and has_parent Queries
+### Fixed
+- [\#148](https://github.com/AntonShuvaev/elasticsearch4idea/issues/148) Fixed regression where indices were not loaded for Elasticsearch versions less than 7.7
+
 ## 2024.1.0 (2024-03-11)
 ### Added
 - [\#144](https://github.com/AntonShuvaev/elasticsearch4idea/issues/144) Add quick access to data streams
