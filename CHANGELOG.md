@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2024.1.2 (2024-03-25)
+### Fixed
+- [\#148](https://github.com/AntonShuvaev/elasticsearch4idea/issues/148) Fixed regression where indices were not loaded for Elasticsearch versions less than 7.7
+
 ## 2024.1.1 (2024-03-21)
 ### Added
 - [\#147](https://github.com/AntonShuvaev/elasticsearch4idea/issues/147) Show search results view when querying using search templates
