@@ -1,5 +1,11 @@
 Change Log
 ----------
+## 2024.1.3 (2024-07-18)
+### Changed
+- Updated icons
+- ### Fixed
+- Fixed minor fixes
+
 ## 2024.1.2 (2024-03-25)
 ### Fixed
 - [\#148](https://github.com/AntonShuvaev/elasticsearch4idea/issues/148) Fixed regression where indices were not loaded for Elasticsearch versions less than 7.7
