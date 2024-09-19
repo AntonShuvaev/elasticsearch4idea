@@ -1,5 +1,11 @@
 Change Log
 ----------
+## 2024.1.4 (2024-09-19)
+### Added
+- Support 2024.3 EAP
+### Fixed
+- [\#155](https://github.com/AntonShuvaev/elasticsearch4idea/issues/155) Invalid argument exception with OpenSearch Serverless
+
 ## 2024.1.3 (2024-07-18)
 ### Changed
 - Updated icons
