@@ -1,5 +1,10 @@
 Change Log
 ----------
+## 2024.1.5 (2024-12-03)
+### Fixed
+- [\#157](https://github.com/AntonShuvaev/elasticsearch4idea/issues/157) Misspelled endpoint for getting stored scripts
+- Error when using big numbers in the query builder
+
 ## 2024.1.4 (2024-09-19)
 ### Added
 - Support 2024.3 EAP
