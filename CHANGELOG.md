@@ -1,5 +1,10 @@
 Change Log
 ----------
+## 2024.1.6 (2025-01-25)
+### Fixed
+- [\#159](https://github.com/AntonShuvaev/elasticsearch4idea/issues/159) Add suggestions menu when using "_source" completion in query
+- [\#140](https://github.com/AntonShuvaev/elasticsearch4idea/issues/140) Add ability to sort document keys alphabetically
+
 ## 2024.1.5 (2024-12-03)
 ### Fixed
 - [\#157](https://github.com/AntonShuvaev/elasticsearch4idea/issues/157) Misspelled endpoint for getting stored scripts
