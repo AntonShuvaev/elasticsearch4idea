@@ -1,5 +1,14 @@
 Change Log
 ----------
+## 2025.1.0 (2025-10-20)
+### Added
+- Added support for painless scripting language
+- REST API completion now expands with actual index names (e.g., myIndex/_search)
+- Added completion for _analyze, _async_search, _search_template, and _field_caps APIs
+- Added configurable double-click action for indices and aliases (REST Console or Data Browser)
+### Fixed
+- Switching between console requests could show wrong or empty response view
+
 ## 2024.1.6 (2025-01-25)
 ### Fixed
 - [\#159](https://github.com/AntonShuvaev/elasticsearch4idea/issues/159) Add suggestions menu when using "_source" completion in query
