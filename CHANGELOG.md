@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2025.1.1 (2025-10-29)
+### Fixed
+- [\#162](https://github.com/AntonShuvaev/elasticsearch4idea/issues/162) Kibana proxy connection failing with Elasticsearch/Kibana 9.0+
+
 ## 2025.1.0 (2025-10-20)
 ### Added
 - Added support for painless scripting language
