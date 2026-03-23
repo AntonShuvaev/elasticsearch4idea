@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2026.1.0 (2026-03-22)
+### Added
+- Supported IDE 2026.1
+
 ## 2025.1.1 (2025-10-29)
 ### Fixed
 - [\#162](https://github.com/AntonShuvaev/elasticsearch4idea/issues/162) Kibana proxy connection failing with Elasticsearch/Kibana 9.0+
