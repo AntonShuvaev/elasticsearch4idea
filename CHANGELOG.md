@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2026.2.0 (2026-07-17)
+### Added
+- Supported IDE 2026.2
+
 ## 2026.1.0 (2026-03-22)
 ### Added
 - Supported IDE 2026.1
