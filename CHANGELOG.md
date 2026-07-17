@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2026.2.1 (2026-07-17)
+### Fixed
+- Removed remaining internal IntelliJ API usage
+
 ## 2026.2.0 (2026-07-17)
 ### Added
 - Supported IDE 2026.2
