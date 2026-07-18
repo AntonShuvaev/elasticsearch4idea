@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2026.2.2 (2026-07-18)
+### Fixed
+- "Open in Data Browser" opened the REST Console when the double-click preference was set to REST Console
+
 ## 2026.2.1 (2026-07-17)
 ### Fixed
 - Removed remaining internal IntelliJ API usage
